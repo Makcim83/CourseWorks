@@ -69,6 +69,12 @@ public class Employee {
         return lastName + " " + firstName + " " + patronymic;
     }
 
+    public String toStringWithoutDepartmentNumber() {
+        return "Ф.И.О. " + toStringFullName() +
+                "\nНомер департамента " + departmentNumber +
+                "\nЗарплата " + salary;
+    }
+
     @Override
     public String toString() {
         return "Ф.И.О. " + toStringFullName() +
