@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         EmployeeBook[0] = new Employee("Иванов", "Иван", "Иванович", 1, 30000);
-        EmployeeBook[1] = new Employee("Петров", "Иван", "Иванович", 2, 40000);
-        EmployeeBook[2] = new Employee("Сидоров", "Иван", "Иванович", 3, 50000);
-        EmployeeBook[3] = new Employee("Кузнецов", "Иван", "Иванович", 4, 60000);
-        EmployeeBook[4] = new Employee("Романов", "Иван", "Иванович", 5, 70000);
+        EmployeeBook[1] = new Employee("Петров", "Иван", "Степаный", 2, 40000);
+        EmployeeBook[2] = new Employee("Сидоров", "Иван", "Фомиич", 3, 50000);
+        EmployeeBook[3] = new Employee("Кузнецов", "Иван", "Кузмич", 4, 60000);
+        EmployeeBook[4] = new Employee("Романов", "Роман", "Иванович", 5, 70000);
 
         allEmployeeToPrint();
         System.out.println("Сумма затрат на зарплату " + amountSalaryOfAllEmployeers());
